@@ -18,7 +18,7 @@
     object-fit: contain;
 }
 .encabezado img:hover{
-    transform: scale(0.9) rotate(2deg);
+    transform: scale(1.1) rotate(2deg);
     filter: drop-shadow(3px 3px 6px #962f33);
 }
 .menu{
@@ -33,27 +33,31 @@
     border-radius: 20px;
     font-size: 20px;
     transition: 0.1s ease-in-out;
-    background: #b64847;
+    background: #f49500;
     transition: 0.3s ease-in-out;
 }
 .extra:hover{
-    border-bottom: 5px solid #a46e56;
-    transform: rotate(5deg) scale(0.9);
-    filter: drop-shadow(3px 3px 6px black);
+    border-bottom: 5px solid #e46820;
+    transform: scale(1.1);
+    filter: drop-shadow(3px 3px 6px #e46820);
+    color: #f1291c;
 }
 .contactos{
     margin: auto 10px;
     text-decoration: none;
     color: rgb(30, 30, 30);
+    font-style: oblique;
     padding: 5px;
-    background: #f5e15e;
+    background: #eebb46;
     border-radius: 15px;
     transition: 0.3s ease-in-out;
     font-size: 20px;
 }
 .contactos:hover{
     transform: scale(0.9) ;
-    filter: drop-shadow(6px 6px 8px #a36d55);
+    filter: drop-shadow(6px 6px 8px #ffaa52);
+    border-bottom: 5px solid #ffaa52;
+    color: whitesmoke;
 }
 /* main */
 .principal{

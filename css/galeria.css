@@ -18,7 +18,7 @@
     object-fit: contain;
 }
 .encabezado img:hover{
-    transform: scale(0.9) rotate(2deg);
+    transform: scale(1.1) rotate(2deg);
     filter: drop-shadow(3px 3px 6px #962f33);
 }
 .menu{
@@ -33,27 +33,31 @@
     border-radius: 20px;
     font-size: 20px;
     transition: 0.1s ease-in-out;
-    background: #b64847;
+    background: #f49500;
     transition: 0.3s ease-in-out;
 }
 .extra:hover{
-    border-bottom: 5px solid #a46e56;
-    transform: rotate(5deg) scale(0.9);
-    filter: drop-shadow(3px 3px 6px black);
+    border-bottom: 5px solid #e46820;
+    transform: scale(1.1);
+    filter: drop-shadow(3px 3px 6px #e46820);
+    color: #f1291c;
 }
 .contactos{
     margin: auto 10px;
     text-decoration: none;
     color: rgb(30, 30, 30);
+    font-style: oblique;
     padding: 5px;
-    background: #f5e15e;
+    background: #eebb46;
     border-radius: 15px;
     transition: 0.3s ease-in-out;
     font-size: 20px;
 }
 .contactos:hover{
     transform: scale(0.9) ;
-    filter: drop-shadow(6px 6px 8px #a36d55);
+    filter: drop-shadow(6px 6px 8px #ffaa52);
+    border-bottom: 5px solid #ffaa52;
+    color: whitesmoke;
 }
 /* Main */
 .principal{
@@ -69,18 +73,56 @@
     gap: 20px;
     padding: 0 10%;
     height: 1000px;
+    padding-top: 30px;
 }
 .img1{
     grid-area: img1;
 }
-.im2{
+.img2{
     grid-area: img2;
+    object-fit: fill !important;
+    width: 350px !important;
 }
 .img3{
     grid-area: img3;
 }
 .Paleta{
     grid-area: Paleta;
+    background: #414141;
+    border-radius: 15px;
+    filter: drop-shadow(4px 4px 8px black);
+}
+.Paleta h3{
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    margin-top: 50px;
+    color: #f5e15e;
+    transition: 0.2s ease-in-out;
+    margin-left: 160px;
+    max-width: 55%;
+}
+.Paleta h3:hover{
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #c86d14, #962f33)1;
+}
+.Listas{
+    display: flex;
+    justify-content: space-around;
+}
+.Listas ul{
+    list-style: none;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+}
+.Listas ul:hover{
+    filter: drop-shadow(2px 2px 4px whitesmoke);
+    transform: scale(0.9);
 }
 .img4{
     grid-area: img4;
@@ -94,6 +136,11 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    filter: drop-shadow(4px 4px 5px black);
+    transition: 0.5s ease-in-out;
+}
+.principal img:hover{
+    transform: scale(0.9);
 }
 /* footer */
 .pie{
